@@ -1,17 +1,17 @@
 {
-  "id": "slack",
-  "name": "Slack",
-  "version": "1.0.12",
-  "description": "Slack",
+  "id": "hey",
+  "name": "Hey",
+  "version": "1.0.0",
+  "description": "Hey",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Mims Wright",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://{teamId}.slack.com",
+    "serviceURL": "https://hey.com",
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
+    "hasDirectMessages": false,
     "hasIndirectMessages": true,
-    "hasTeamId": true,
-    "urlInputSuffix": ".slack.com"
+    "hasTeamId": false,
+    "urlInputSuffix": ".hey.com"
   }
 }
