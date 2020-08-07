@@ -7,7 +7,7 @@
   "author": "Mims Wright",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://hey.com",
+    "serviceURL": "https://app.hey.com",
     "hasNotificationSound": true,
     "hasDirectMessages": false,
     "hasIndirectMessages": true,
