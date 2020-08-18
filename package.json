@@ -8,8 +8,8 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.hey.com",
-    "hasNotificationSound": true,
-    "hasDirectMessages": true,
+    "hasNotificationSound": false,
+    "hasDirectMessages": false,
     "hasIndirectMessages": false,
     "hasTeamId": false
   }
