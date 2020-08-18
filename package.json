@@ -9,9 +9,8 @@
   "config": {
     "serviceURL": "https://app.hey.com",
     "hasNotificationSound": true,
-    "hasDirectMessages": false,
-    "hasIndirectMessages": true,
-    "hasTeamId": false,
-    "urlInputSuffix": ".hey.com"
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamId": false
   }
 }
