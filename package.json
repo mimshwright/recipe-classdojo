@@ -1,16 +1,16 @@
 {
-  "id": "hey",
-  "name": "Hey",
+  "id": "classdojo",
+  "name": "ClassDojo",
   "version": "1.0.0",
-  "description": "Hey",
+  "description": "Recipe for ClassDojo",
   "main": "index.js",
   "author": "Mims Wright",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://app.hey.com",
+    "serviceURL": "https://home.classdojo.com/#/messages",
     "hasNotificationSound": false,
-    "hasDirectMessages": false,
-    "hasIndirectMessages": false,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
     "hasTeamId": false
   }
 }
