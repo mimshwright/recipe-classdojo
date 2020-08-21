@@ -1,11 +1,10 @@
-const SELECTOR_INBOX_UNREAD = '#postings article:not([data-seen=true])';
+const SELECTOR_INBOX_UNREAD = '[aria-label*="Messages ("]';
 
 module.exports = (Franz) => {
   const getMessages = () => {
-    const unreadMessages = document.querySelectorAll(SELECTOR_INBOX_UNREAD).length;
-
-    // set Franz badge to 1 if there are any unread messages.
-    Franz.setBadge(unreadMessages > 0 ? 1 : 0);
+    const $messages = document.querySelector(SELECTOR_INBOX_UNREAD);
+    const unreadMessages = $messages ? $messages.getAttribute("aria-label").split("(")[1].split(")")[0] : 0;
+    Franz.setBadge(unreadMessages);
   };
 
   Franz.loop(getMessages);
